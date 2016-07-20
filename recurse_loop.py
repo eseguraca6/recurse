@@ -1,3 +1,5 @@
+#this is the actual solution submitted for the recurse center application
+
 for i in range(1,101):
 	#check if it is divisible only by 3 
 	if i % 3 == 0 and i % 5 != 0:

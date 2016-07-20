@@ -1,7 +1,9 @@
 file = open("recursive_list_pop.txt", "w")
 
-#note: this function goes from 100 to 1, recursively, so in comparison to 
-# the loop solution it is in reverse order, the print out. 
+#note: this function goes from 100 to 3 
+#(there is no print out for 2, 1, so it could be though as going from 100 to 1)
+# recursively, so in comparison to  the 
+#loop solution it is in reverse order, the print out. 
 
 
 def recurse_printer(n):

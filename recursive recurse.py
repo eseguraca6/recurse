@@ -1,4 +1,4 @@
-#file = open("recursive_list_pop.txt", "w")
+file = open("recursive_list_pop.txt", "w")
 
 #note: this function goes from 100 to 1, recursively, so in comparison to 
 # the loop solution it is in reverse order, the print out. 
@@ -25,10 +25,11 @@ def recurse_printer(n):
 	elif n > 3:
 		print n
 		file.write('%d' % n)
+		file.write('\n')
 		recurse_printer(n-1)
 
 recurse_printer(100)
-#file.close()
+file.close()
 
 
 
